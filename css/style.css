@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    /* background-color: #222; */
+    font-family: hambozo;
+    background-image: url(../imgs/cat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 900;
+    font-size: 55;
+  
+}
+@font-face {
+    font-family: hambozo;
+    src: url(../static/Assistant-Bold.ttf);
+}
+.text-quote{
+    color: rgb(3, 125, 141);
+}

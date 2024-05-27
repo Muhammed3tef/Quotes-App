@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quotes App</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="inner-item my-5">
+          <div class="item">
+            <h1 class="text-center text-white">Quote of the Day</h1>
+            <p class="text-center my-5 fs-3 text-white">
+              Press the button yellow to recieve a random quote!
+            </p>
+            <div class="btnquo text-center">
+              <button
+                type="submit"
+                id="quotes-button"
+                onclick="getQuotes()"
+                class="btn btn-outline-warning px-5 py-2"
+              >
+                New Quotes
+              </button>
+              <p class="text-quote my-5 fs-4" id="quoteItem"></p>
+              <p class="text-quote my-3 fs-4" id="quoteItem2"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
